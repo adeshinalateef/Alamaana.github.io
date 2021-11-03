@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="overlay" id="overlay">
+        <h3>Searching now ...</h3>
+    </div>
+    
+    <div class="latbg">
+        <section class="top">
+            <header>
+                <a href="#">Marajik.eats</a>
+            </header>
+
+
+            <h1><span>The Healthy </span>  Eating Experience </h1>
+            <p>Marajik: mrs Ajike is a good nutritionist, a gentle woman, she has this funny and easy look and thats why i call her "my type", I really hope for our unuion as soon as possible for i cant wait to have that special blessing.Ajike please dont ever think of ignoring me or put up a fight with me, you know we plan on building a relationship free of fight and quarell.</p>
+           
+            <div class="form-container">
+                <form action="">
+                    <div class="form-left">
+                        <label for="city">Enter your city</label>
+                        <input type="text " name="city" id="city ">
+                        <p>Example; "ilorin"</p>
+                    </div>
+                    
+                    <input type="button" value="Find food now"  id="cta-btn">
+
+                </form>   
+            </div>
+        
+        </section>
+    </div>    
+        
+
+    <section class="authentic"> 
+        <div class="right-column">
+            <h2>Authentic. Awesome.</h2>
+            <p>Marajik: mrs Ajike is a good nutritionist, a gentle woman, she has this funny and easy look and thats why i call her "my type", I really hope for our unuion as soon as possible for i cant wait to have that special blessing.Ajike please dont ever think of ignoring me or put up a fight with me, you know we plan on building a relationship free of fight and quarell.</p>  
+        </div>
+        <img src="images/food.jpg" alt="picture of food in a bowl">
+    </section>
+
+
+
+    <script>
+
+        let btn = document.getElementById( "cta-btn")
+        let overlay = document.getElementById( "overlay")
+
+        btn.addEventListener('click', ()=> {
+            overlay.style.display='grid';
+            overlay.classList.add('animate-overlay')
+        })
+
+    </script>
+       
+ 
+ 
+        
+</body>
+</html 
